@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-message {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.save-message.saving {
+  color: #f59e0b; 
+}
+
+.save-message.success {
+  color: #22c55e; 
+}
+
+.navbar-title {
+  font-size: 25px;
+  font-weight: 650;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-green {
+  background-color: #09a342;
+}
+
+.btn-blue {
+  background-color: #1a6aec;
+}
+
+.btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+

@@ -1,0 +1,149 @@
+.skill-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.add-skill-btn {
+  background-color: #6c6c6c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-skill-btn:hover {
+  background-color: #555;
+}
+
+.skills-list-box {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill {
+  background-color: #f1f1f1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-box {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.popup-box h3 {
+  margin-top: 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.input-group input,
+.input-group select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.insert-btn,
+.cancel-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.insert-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.skill-item.inserted {
+  display: flex;
+  background-color: #4f5d7a; 
+  color: white;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-weight: 600;
+}
+
+.skill-item.inserted input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d11a2a;
+}
+
+
+.skill-item.inserted .delete-btn {
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.2s ease;  
+}
+
+

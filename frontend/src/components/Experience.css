@@ -1,0 +1,163 @@
+.experience-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.add-btn {
+  background-color: #e1e8ff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.experience-entry {
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #1f1f1f;
+  outline: none; 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.date-group {
+  display: flex;
+  gap: 10px;
+}
+
+.date-group input {
+  flex: 1;
+}
+
+.experience-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.experience-label {
+  font-weight: bold;
+  color: #000000;
+  font-size: 17px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #d9534f; 
+}
+
+.delete-btn:hover {
+  color: #c9302c;
+}
+
+.location-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  align-items: flex-start;
+}
+
+.dropdown-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.dropdown-select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.dropdown-select:focus {
+  border-color: #1f1f1f;
+}
+
+.date-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.date-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.date-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.date-input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #fff;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.date-input:focus {
+  border-color: #1f1f1f;
+}
+

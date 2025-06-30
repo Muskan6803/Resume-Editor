@@ -1,0 +1,49 @@
+.blank-resume {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.blank-resume h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blank-resume section {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+pre {
+  font-size: 16px;
+}
+
+.view-text-button {
+  background-color: #565656; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-text-button:hover {
+  background-color: #080808;
+}
