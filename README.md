@@ -109,3 +109,9 @@ Behavior: Saves the resume (to disk or memory)
 
 📄 Download Resume
 A .json file of the final resume can be downloaded directly from the frontend.
+
+
+Most Import ---- Some files in missing in this because of some security concern like in FRONTEND ---> .git
+               node_modules
+               .env .gitignore
+BACKEND ---> .env file
